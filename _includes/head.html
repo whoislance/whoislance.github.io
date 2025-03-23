@@ -6,6 +6,9 @@
   <!-- Robots -->
   <meta name="robots" content="{{- page.robots | default: 'index, follow' -}}" />
   {%- unless page.canonical == false -%}<link rel="canonical" href="{{- page.url | absolute_url -}}" />{%- endunless -%}
+  {% unless page.no_latex %}
+       {% include latex.html %}
+  {% endunless %}
   
   <!-- Title, description, author -->
   {%- capture _page_title -%}

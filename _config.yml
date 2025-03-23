@@ -68,4 +68,6 @@ collections: [sections]
 highlighter: rouge
 
 # markdown
-markdown: kramdown
+# markdown: kramdown
+kramdown:
+  math_engine: null
