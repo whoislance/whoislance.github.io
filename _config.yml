@@ -66,3 +66,6 @@ collections: [sections]
 
 #highlighter: pygments
 highlighter: rouge
+
+# markdown
+markdown: kramdown

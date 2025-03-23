@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Using Python
+title: ML Using Python
 layout: post
 tags: machine_learning
 ---
