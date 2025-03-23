@@ -4,7 +4,7 @@ layout: default
 {%- assign _posts = site.posts | sort: 'date' | reverse -%}
 {%- include header.html scrolly_nav=_posts -%}
 <!-- Main -->
-<div id="main">
+<div id="main" class="compact-blog">
 	{%- if page.content != "" -%}
 		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
 	{%- endif -%}
@@ -23,3 +23,56 @@ layout: default
 		{%- include section.html title=_title subtitle=_subtitle content=_content -%}
 	{%- endfor -%}
 </div>
+
+<style>
+.compact-blog {
+    padding: 1em 2em;  /* 减小内边距 */
+    margin: 0;         /* 移除外边距 */
+    text-align: left;  /* 左对齐 */
+}
+
+.compact-blog section {
+    padding: 1.5em 0;  /* 减小段落间距 */
+    margin: 0;
+    text-align: left;
+}
+
+.compact-blog section .container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.compact-blog h2, 
+.compact-blog h3 {
+    text-align: left;
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+.compact-blog p {
+    text-align: left;
+    margin: 0.5em 0;
+    line-height: 1.4;
+}
+
+.compact-blog .subtitle {
+    margin: 0.2em 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.compact-blog a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.compact-blog a:hover {
+    text-decoration: underline;
+}
+
+.compact-blog section + section {
+    margin-top: 1em;  /* 减小文章之间的间距 */
+    border-top: 1px solid #eee;
+}
+</style>
