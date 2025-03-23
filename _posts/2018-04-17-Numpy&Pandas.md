@@ -1,5 +1,5 @@
 ---
-title: Numpy & Pandas by Morvan
+title: Numpy & Pandas
 layout: post
 tags: machine_learning
 ---

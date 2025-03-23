@@ -1,5 +1,5 @@
 ---
-title: Deep Learning by Hung-yi Lee
+title: Deep Learning
 layout: post
 tags: machine_learning
 ---

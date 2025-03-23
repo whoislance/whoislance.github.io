@@ -1,5 +1,5 @@
 ---
-title: Operating System by Chyyuu
+title: Operating System
 layout: post
 tags: cs
 ---

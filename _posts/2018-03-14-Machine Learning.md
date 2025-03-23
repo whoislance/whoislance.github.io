@@ -1,5 +1,5 @@
 ---
-title: Machine Learning by Ng
+title: Machine Learning
 layout: post
 tags: machine_learning
 ---
