@@ -3,8 +3,6 @@ title: Machine Learning Using Python
 layout: post
 tags: machine_learning
 ---
-[TOC]
-
 
 # 第一章 赋予计算机学习数据n能力
 
