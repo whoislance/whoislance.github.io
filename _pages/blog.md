@@ -101,6 +101,13 @@ pagination:
 
 {% endif %}
 
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Blogs</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
   <ul class="post-list">
 
     {% if page.pagination.enabled %}
