@@ -213,13 +213,22 @@ ul.task-list input[type="checkbox"] {
     .contact-icons {
       font-size: 1.5rem;
       display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1rem;
 
       .social-item {
         display: flex;
         align-items: center;
         gap: 0.5rem;
+        padding: 0.3rem 0.6rem;
+        border-radius: 4px;
+        background-color: var(--global-bg-color);
+        transition: background-color 0.2s ease;
+
+        &:hover {
+          background-color: var(--global-code-bg-color);
+        }
 
         a {
           display: flex;
@@ -244,7 +253,7 @@ ul.task-list input[type="checkbox"] {
           }
 
           i::before {
-            color: var(--global-text-color);
+            color: var(--global-theme-color);
             transition-property: all 0.2s ease-in-out;
           }
 
@@ -258,7 +267,7 @@ ul.task-list input[type="checkbox"] {
         }
 
         .social-text {
-          font-family: 'Brush Script MT', cursive;
+          font-family: 'Cormorant Garamond', 'Palatino Linotype', serif;
           font-style: italic;
           font-size: 1rem;
           color: var(--global-text-color);

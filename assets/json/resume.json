@@ -23,7 +23,7 @@
   "work": [
     {
       "name": "TikTok",
-      "location": "Chaoyang, Beijing",
+      "location": "Beijing, China",
       "position": "Senior Machine Learning Engineer",
       "url": "https://tiktok.com",
       "startDate": "2025-01-01",
@@ -33,7 +33,7 @@
     },
     {
       "name": "TikTok",
-      "location": "Haidian, Beijing",
+      "location": "Beijing, China",
       "position": "Machine Learning Engineer",
       "url": "https://tiktok.com",
       "startDate": "2021-07-15",
@@ -45,7 +45,7 @@
   "internship": [
     {
       "organization": "TikTok",
-      "location": "Beijing",
+      "location": "Beijing, China",
       "position": "Machine Learning Engineer Intern",
       "url": "https://www.tiktok.com",
       "startDate": "2021-04-06",
@@ -55,7 +55,7 @@
     },
     {
       "organization": "E-Funds",
-      "location": "Guangzhou",
+      "location": "Guangzhou, China",
       "position": "Machine Learning Engineer Intern",
       "url": "https://www.efunds.com.cn",
       "startDate": "2021-11-01",
@@ -63,7 +63,7 @@
     },    
     {
       "organization": "Microsoft",
-      "location": "Beijing",
+      "location": "Beijing, China",
       "position": "Machine Learning Engineer Intern",
       "url": "https://www.microsoft.com",
       "startDate": "2020-07-01",
@@ -71,7 +71,7 @@
     },
     {
       "organization": "Wechat",
-      "location": "Guangzhou",
+      "location": "Guangzhou, China",
       "position": "Machine Learning Engineer Intern",
       "url": "https://www.wechat.com",
       "startDate": "2020-04-01",
@@ -79,7 +79,7 @@
     },  
     {
       "organization": "Tencent",
-      "location": "Shenzhen",
+      "location": "Shenzhen, China",
       "position": "Businees Analyst Intern",
       "url": "https://www.tencent.com",
       "startDate": "2019-08-01",
@@ -87,7 +87,7 @@
     },  
     {
       "organization": "Microsoft",
-      "location": "Beijing",
+      "location": "Beijing, China",
       "position": "Machine Learning Engineer Intern",
       "url": "https://www.microsoft.com",
       "startDate": "2019-03-01",
@@ -95,7 +95,7 @@
     },
     {
       "organization": "Roland Berger",
-      "location": "Beijing",
+      "location": "Beijing, China",
       "position": "Part Time Assistant",
       "url": "https://www.rolandberger.com",
       "startDate": "2019-01-01",
@@ -105,7 +105,7 @@
   "education": [
     {
       "institution": "Peking University",
-      "location": "Beijing",
+      "location": "Beijing, China",
       "url": "https://www.pku.edu.cn/",
       "area": "Embedded System",
       "studyType": "Master",
@@ -116,7 +116,7 @@
     },
     {
       "institution": "National TsingHua University",
-      "location": "Hsinchu",
+      "location": "Hsinchu, China",
       "url": "https://dee.site.nthu.edu.tw/",
       "area": "Electronic Engineering",
       "studyType": "Exchange Program",
@@ -125,7 +125,7 @@
     },
     {
       "institution": "Southeast University",
-      "location": "Nanjing",
+      "location": "Nanjing, China",
       "url": "https://dee.site.nthu.edu.tw/",
       "area": "Automation Engineering",
       "studyType": "Bachelor",
