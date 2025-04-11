@@ -223,54 +223,21 @@ ul.task-list input[type="checkbox"] {
         gap: 0.5rem;
         padding: 0.3rem 0.6rem;
         border-radius: 4px;
-        background-color: var(--global-theme-color);
-        transition: background-color 0.2s ease;
+        margin-right: 0.5rem;
+        position: relative;
 
-        &:hover {
-          background-color: var(--global-hover-color);
-        }
-
-        a {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 2rem;
-          height: 2rem;
-
-          img {
-            width: 1.5rem;
-            height: 1.5rem;
-          }
-
-          svg {
-            width: 1.5rem;
-            height: 1.5rem;
-
-            image {
-              width: 1.5rem;
-              height: 1.5rem;
-            }
-          }
-
-          i::before {
-            color: var(--global-theme-color);
-            transition-property: all 0.2s ease-in-out;
-          }
-
-          &:hover {
-            text-decoration: none;
-
-            i::before {
-              color: var(--global-theme-color);
-            }
-          }
+        &:not(:last-child)::after {
+          content: "•";
+          margin-left: 0.5rem;
+          color: var(--global-text-color);
+          opacity: 0.4;
         }
 
         .social-text {
           font-family: 'Cormorant Garamond', 'Palatino Linotype', serif;
           font-style: italic;
           font-size: 1rem;
-          color: var(--global-theme-color);
+          color: var(--global-text-color);
           text-decoration: none;
           transition: color 0.2s ease-in-out;
 
