@@ -223,11 +223,11 @@ ul.task-list input[type="checkbox"] {
         gap: 0.5rem;
         padding: 0.3rem 0.6rem;
         border-radius: 4px;
-        background-color: var(--global-bg-color);
+        background-color: var(--global-theme-color);
         transition: background-color 0.2s ease;
 
         &:hover {
-          background-color: var(--global-code-bg-color);
+          background-color: var(--global-hover-color);
         }
 
         a {
@@ -270,7 +270,7 @@ ul.task-list input[type="checkbox"] {
           font-family: 'Cormorant Garamond', 'Palatino Linotype', serif;
           font-style: italic;
           font-size: 1rem;
-          color: var(--global-text-color);
+          color: var(--global-theme-color);
           text-decoration: none;
           transition: color 0.2s ease-in-out;
 
