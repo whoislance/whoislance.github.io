@@ -205,6 +205,69 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+
+  .social {
+    text-align: left;
+    margin-top: 1rem;
+
+    .contact-icons {
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .social-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 2rem;
+          height: 2rem;
+
+          img {
+            width: 1.5rem;
+            height: 1.5rem;
+          }
+
+          svg {
+            width: 1.5rem;
+            height: 1.5rem;
+
+            image {
+              width: 1.5rem;
+              height: 1.5rem;
+            }
+          }
+
+          i::before {
+            color: var(--global-text-color);
+            transition-property: all 0.2s ease-in-out;
+          }
+
+          &:hover {
+            text-decoration: none;
+
+            i::before {
+              color: var(--global-theme-color);
+            }
+          }
+        }
+
+        span {
+          font-size: 1rem;
+          color: var(--global-text-color);
+        }
+      }
+    }
+
+    .contact-note {
+      font-size: 0.8rem;
+    }
+  }
 }
 
 .profile.float-right {
