@@ -3,187 +3,187 @@
     {% when 'acm_id' %}
       <div class="social-item">
         <a href="https://dl.acm.org/profile/{{ social[1] }}/" title="ACM DL"><i class="ai ai-acm"></i></a>
-        <span>ACM DL</span>
+        <a href="https://dl.acm.org/profile/{{ social[1] }}/" title="ACM DL"><span class="social-text">ACM DL</span></a>
       </div>
     {% when 'blogger_url' %}
       <div class="social-item">
         <a href="{{ social[1] }}" title="Blogger"><i class="fa-brands fa-blogger-b"></i></a>
-        <span>Blogger</span>
+        <a href="{{ social[1] }}" title="Blogger"><span class="social-text">Blogger</span></a>
       </div>
     {% when 'bluesky_url' %}
       <div class="social-item">
         <a href="{{ social[1] }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
-        <span>Bluesky</span>
+        <a href="{{ social[1] }}" title="Bluesky"><span class="social-text">Bluesky</span></a>
       </div>
     {% when 'dblp_url' %}
       <div class="social-item">
         <a href="{{ social[1] }}" title="DBLP"><i class="ai ai-dblp"></i></a>
-        <span>DBLP</span>
+        <a href="{{ social[1] }}" title="DBLP"><span class="social-text">DBLP</span></a>
       </div>
     {% when 'discord_id' %}
       <div class="social-item">
         <a href="https://discord.com/users/{{ social[1] }}" title="Discord"><i class="fa-brands fa-discord"></i></a>
-        <span>Discord</span>
+        <a href="https://discord.com/users/{{ social[1] }}" title="Discord"><span class="social-text">Discord</span></a>
       </div>
     {% when 'email' %}
       <div class="social-item">
         <a href="mailto:{{ social[1] | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
-        <span>Email</span>
+        <a href="mailto:{{ social[1] | encode_email }}" title="email"><span class="social-text">Email</span></a>
       </div>
     {% when 'facebook_id' %}
       <div class="social-item">
         <a href="https://facebook.com/{{ social[1] }}" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
-        <span>Facebook</span>
+        <a href="https://facebook.com/{{ social[1] }}" title="Facebook"><span class="social-text">Facebook</span></a>
       </div>
     {% when 'flickr_id' %}
       <div class="social-item">
         <a href="https://www.flickr.com/{{ social[1] }}" title="Flickr"><i class="fa-brands fa-flickr"></i></a>
-        <span>Flickr</span>
+        <a href="https://www.flickr.com/{{ social[1] }}" title="Flickr"><span class="social-text">Flickr</span></a>
       </div>
     {% when 'github_username' %}
       <div class="social-item">
         <a href="https://github.com/{{ social[1] }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
-        <span>GitHub</span>
+        <a href="https://github.com/{{ social[1] }}" title="GitHub"><span class="social-text">GitHub</span></a>
       </div>
     {% when 'gitlab_username' %}
       <div class="social-item">
         <a href="https://gitlab.com/{{ social[1] }}" title="GitLab"><i class="fa-brands fa-gitlab"></i></a>
-        <span>GitLab</span>
+        <a href="https://gitlab.com/{{ social[1] }}" title="GitLab"><span class="social-text">GitLab</span></a>
       </div>
     {% when 'ieee_id' %}
       <div class="social-item">
         <a href="https://ieeexplore.ieee.org/author/{{ social[1] }}/" title="IEEE Xplore"><i class="ai ai-ieee"></i></a>
-        <span>IEEE</span>
+        <a href="https://ieeexplore.ieee.org/author/{{ social[1] }}/" title="IEEE Xplore"><span class="social-text">IEEE</span></a>
       </div>
     {% when 'inspirehep_id' %}
       <div class="social-item">
         <a href="https://inspirehep.net/authors/{{ social[1] }}" title="Inspire HEP"><i class="ai ai-inspire"></i></a>
-        <span>Inspire</span>
+        <a href="https://inspirehep.net/authors/{{ social[1] }}" title="Inspire HEP"><span class="social-text">Inspire</span></a>
       </div>
     {% when 'instagram_id' %}
       <div class="social-item">
         <a href="https://instagram.com/{{ social[1] }}" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <span>Instagram</span>
+        <a href="https://instagram.com/{{ social[1] }}" title="Instagram"><span class="social-text">Instagram</span></a>
       </div>
     {% when 'kaggle_id' %}
       <div class="social-item">
         <a href="https://www.kaggle.com/{{ social[1] }}" title="Kaggle"><i class="fa-brands fa-kaggle"></i></a>
-        <span>Kaggle</span>
+        <a href="https://www.kaggle.com/{{ social[1] }}" title="Kaggle"><span class="social-text">Kaggle</span></a>
       </div>
     {% when 'keybase_username' %}
       <div class="social-item">
         <a href="https://keybase.io/{{ social[1] }}" title="Keybase"><i class="fa-brands fa-keybase"></i></a>
-        <span>Keybase</span>
+        <a href="https://keybase.io/{{ social[1] }}" title="Keybase"><span class="social-text">Keybase</span></a>
       </div>
     {% when 'lastfm_id' %}
       <div class="social-item">
         <a href="https://www.last.fm/user/{{ social[1] }}" title="Last FM"><i class="fa-brands fa-lastfm"></i></a>
-        <span>Last FM</span>
+        <a href="https://www.last.fm/user/{{ social[1] }}" title="Last FM"><span class="social-text">Last FM</span></a>
       </div>
     {% when 'lattes_id' %}
       <div class="social-item">
         <a href="http://lattes.cnpq.br/{{ social[1] }}" target="_blank" title="Lattes"><i class="ai ai-lattes"></i></a>
-        <span>Lattes</span>
+        <a href="http://lattes.cnpq.br/{{ social[1] }}" target="_blank" title="Lattes"><span class="social-text">Lattes</span></a>
       </div>
     {% when 'leetcode_id' %}
       <div class="social-item">
         <a href="https://leetcode.com/u/{{ social[1] }}/" target="_blank" title="LeetCode"><i class="si si-leetcode"></i></a>
-        <span>LeetCode</span>
+        <a href="https://leetcode.com/u/{{ social[1] }}/" target="_blank" title="LeetCode"><span class="social-text">LeetCode</span></a>
       </div>
     {% when 'linkedin_username' %}
       <div class="social-item">
         <a href="https://www.linkedin.com/in/{{ social[1] }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-        <span>LinkedIn</span>
+        <a href="https://www.linkedin.com/in/{{ social[1] }}" title="LinkedIn"><span class="social-text">LinkedIn</span></a>
       </div>
     {% when 'mastodon_username' %}
       <div class="social-item">
         <a rel="me" href="https://{{ social[1] }}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
-        <span>Mastodon</span>
+        <a rel="me" href="https://{{ social[1] }}" title="Mastodon"><span class="social-text">Mastodon</span></a>
       </div>
     {% when 'medium_username' %}
       <div class="social-item">
         <a href="https://medium.com/@{{ social[1] }}" title="Medium"><i class="fa-brands fa-medium"></i></a>
-        <span>Medium</span>
+        <a href="https://medium.com/@{{ social[1] }}" title="Medium"><span class="social-text">Medium</span></a>
       </div>
     {% when 'orcid_id' %}
       <div class="social-item">
         <a href="https://orcid.org/{{ social[1] }}" title="ORCID"><i class="ai ai-orcid"></i></a>
-        <span>ORCID</span>
+        <a href="https://orcid.org/{{ social[1] }}" title="ORCID"><span class="social-text">ORCID</span></a>
       </div>
     {% when 'osf_id' %}
       <div class="social-item">
         <a href="https://osf.io/{{ social[1] }}/" title="Open Science Framework"><i class="ai ai-osf"></i></a>
-        <span>OSF</span>
+        <a href="https://osf.io/{{ social[1] }}/" title="Open Science Framework"><span class="social-text">OSF</span></a>
       </div>
     {% when 'pinterest_id' %}
       <div class="social-item">
         <a href="https://www.pinterest.com/{{ social[1] }}" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
-        <span>Pinterest</span>
+        <a href="https://www.pinterest.com/{{ social[1] }}" title="Pinterest"><span class="social-text">Pinterest</span></a>
       </div>
     {% when 'publons_id' %}
       <div class="social-item">
         <a href="https://publons.com/a/{{ social[1] }}/" title="Publons"><i class="ai ai-publons"></i></a>
-        <span>Publons</span>
+        <a href="https://publons.com/a/{{ social[1] }}/" title="Publons"><span class="social-text">Publons</span></a>
       </div>
     {% when 'quora_username' %}
       <div class="social-item">
         <a href="https://www.quora.com/profile/{{ social[1] }}" title="Quora"><i class="fa-brands fa-quora"></i></a>
-        <span>Quora</span>
+        <a href="https://www.quora.com/profile/{{ social[1] }}" title="Quora"><span class="social-text">Quora</span></a>
       </div>
     {% when 'research_gate_profile' %}
       <div class="social-item">
         <a href="https://www.researchgate.net/profile/{{ social[1] }}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
-        <span>ResearchGate</span>
+        <a href="https://www.researchgate.net/profile/{{ social[1] }}/" title="ResearchGate"><span class="social-text">ResearchGate</span></a>
       </div>
     {% when 'rss_icon' %}
       <div class="social-item">
         <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
-        <span>RSS</span>
+        <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><span class="social-text">RSS</span></a>
       </div>
     {% when 'scholar_userid' %}
       <div class="social-item">
         <a href="https://scholar.google.com/citations?user={{ social[1] }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-        <span>Google Scholar</span>
+        <a href="https://scholar.google.com/citations?user={{ social[1] }}" title="Google Scholar"><span class="social-text">Google Scholar</span></a>
       </div>
     {% when 'scopus_id' %}
       <div class="social-item">
         <a href="https://www.scopus.com/authid/detail.uri?authorId={{ social[1] }}" title="Scopus"><i class="ai ai-scopus"></i></a>
-        <span>Scopus</span>
+        <a href="https://www.scopus.com/authid/detail.uri?authorId={{ social[1] }}" title="Scopus"><span class="social-text">Scopus</span></a>
       </div>
     {% when 'semanticscholar_id' %}
       <div class="social-item">
         <a href="https://www.semanticscholar.org/author/{{ social[1] }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
-        <span>Semantic Scholar</span>
+        <a href="https://www.semanticscholar.org/author/{{ social[1] }}" title="Semantic Scholar"><span class="social-text">Semantic Scholar</span></a>
       </div>
     {% when 'spotify_id' %}
       <div class="social-item">
         <a href="https://open.spotify.com/user/{{ social[1] }}" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
-        <span>Spotify</span>
+        <a href="https://open.spotify.com/user/{{ social[1] }}" title="Spotify"><span class="social-text">Spotify</span></a>
       </div>
     {% when 'stackoverflow_id' %}
       <div class="social-item">
         <a href="https://stackoverflow.com/users/{{ social[1] }}" title="Stackoverflow"><i class="fa-brands fa-stack-overflow"></i></a>
-        <span>Stack Overflow</span>
+        <a href="https://stackoverflow.com/users/{{ social[1] }}" title="Stackoverflow"><span class="social-text">Stack Overflow</span></a>
       </div>
     {% when 'strava_userid' %}
       <div class="social-item">
         <a href="https://www.strava.com/athletes/{{ social[1] }}" title="Strava"><i class="fa-brands fa-strava"></i></a>
-        <span>Strava</span>
+        <a href="https://www.strava.com/athletes/{{ social[1] }}" title="Strava"><span class="social-text">Strava</span></a>
       </div>
     {% when 'telegram_username' %}
       <div class="social-item">
         <a href="https://telegram.me/{{ social[1] }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
-        <span>Telegram</span>
+        <a href="https://telegram.me/{{ social[1] }}" title="telegram"><span class="social-text">Telegram</span></a>
       </div>
     {% when 'unsplash_id' %}
       <div class="social-item">
         <a href="https://unsplash.com/@{{ social[1] }}" title="Unsplash"><i class="fa-brands fa-unsplash"></i></a>
-        <span>Unsplash</span>
+        <a href="https://unsplash.com/@{{ social[1] }}" title="Unsplash"><span class="social-text">Unsplash</span></a>
       </div>
     {% when 'wechat_qr' %}
       <div class="social-item">
         <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin"></i></a>
-        <span>WeChat</span>
+        <a id="WeChatBtn" title="WeChat"><span class="social-text">WeChat</span></a>
         <div id="WeChatMod" class="wechat-modal">
           <img src="{{ social[1] | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
         </div>
@@ -192,37 +192,37 @@
     {% when 'whatsapp_number' %}
       <div class="social-item">
         <a href="https://wa.me/{{ social[1] }}" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-        <span>WhatsApp</span>
+        <a href="https://wa.me/{{ social[1] }}" title="whatsapp"><span class="social-text">WhatsApp</span></a>
       </div>
     {% when 'wikidata_id' %}
       <div class="social-item">
         <a href="https://www.wikidata.org/wiki/{{ social[1] }}" title="Wikidata"><i class="fa-solid fa-barcode"></i></a>
-        <span>Wikidata</span>
+        <a href="https://www.wikidata.org/wiki/{{ social[1] }}" title="Wikidata"><span class="social-text">Wikidata</span></a>
       </div>
     {% when 'wikipedia_id' %}
       <div class="social-item">
         <a href="https://wikipedia.org/wiki/User:{{ social[1] }}" title="Wikipedia"><i class="fa-brands fa-wikipedia-w"></i></a>
-        <span>Wikipedia</span>
+        <a href="https://wikipedia.org/wiki/User:{{ social[1] }}" title="Wikipedia"><span class="social-text">Wikipedia</span></a>
       </div>
     {% when 'work_url' %}
       <div class="social-item">
         <a href="{{ social[1] }}" title="Work"><i class="fa-solid fa-briefcase"></i></a>
-        <span>Work</span>
+        <a href="{{ social[1] }}" title="Work"><span class="social-text">Work</span></a>
       </div>
     {% when 'x_username' %}
       <div class="social-item">
         <a href="https://twitter.com/{{ social[1] }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
-        <span>X (Twitter)</span>
+        <a href="https://twitter.com/{{ social[1] }}" title="X"><span class="social-text">X (Twitter)</span></a>
       </div>
     {% when 'youtube_id' %}
       <div class="social-item">
         <a href="https://youtube.com/@{{ social[1] }}" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
-        <span>YouTube</span>
+        <a href="https://youtube.com/@{{ social[1] }}" title="YouTube"><span class="social-text">YouTube</span></a>
       </div>
     {% when 'zotero_username' %}
       <div class="social-item">
         <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
-        <span>Zotero</span>
+        <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><span class="social-text">Zotero</span></a>
       </div>
     {% else %}
       <div class="social-item">
@@ -239,7 +239,7 @@
             >
           {% endif %}
         </a>
-        <span>{{ social[1].title }}</span>
+        <a href="{{ social[1].url }}" title="{{ social[1].title }}"><span class="social-text">{{ social[1].title }}</span></a>
       </div>
   {% endcase %}
 {% endfor %}

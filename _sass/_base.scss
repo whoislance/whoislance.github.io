@@ -257,9 +257,17 @@ ul.task-list input[type="checkbox"] {
           }
         }
 
-        span {
+        .social-text {
+          font-family: 'Brush Script MT', cursive;
+          font-style: italic;
           font-size: 1rem;
           color: var(--global-text-color);
+          text-decoration: none;
+          transition: color 0.2s ease-in-out;
+
+          &:hover {
+            color: var(--global-theme-color);
+          }
         }
       }
     }

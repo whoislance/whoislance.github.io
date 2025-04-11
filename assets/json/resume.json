@@ -1,12 +1,10 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Lance Yu",
+    "position": "Senior Machine Learning Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "yule_whale@foxmail.com",
+    "summary": "Currently engaged in TikTok advertising. Including Strategy/Model optimization for Recall/Rough/Fine-sort.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,38 +22,115 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "TikTok",
+      "location": "Chaoyang, Beijing",
+      "position": "Senior Machine Learning Engineer",
+      "url": "https://tiktok.com",
+      "startDate": "2025-01-01",
+      "endDate": "now",
+      // "summary": "2025: TikTok App Ads.",
+      "highlights": ["2025: TikTok App Ads."]
+    },
+    {
+      "name": "TikTok",
+      "location": "Haidian, Beijing",
+      "position": "Machine Learning Engineer",
+      "url": "https://tiktok.com",
+      "startDate": "2021-07-15",
+      "endDate": "2025-01-01",
+      // "summary": "2023-2024: TikTok Lead Ads.\n2021-2022: TikTok Promote Ads.",
+      "highlights": ["2023-2024: TikTok Lead Ads.", "2021-2022: TikTok Promote Ads."]
     }
   ],
-  "volunteer": [
+  "internship": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "TikTok",
+      "location": "Beijing",
+      "position": "Machine Learning Engineer Intern",
+      "url": "https://www.tiktok.com",
+      "startDate": "2021-04-06",
+      "endDate": "2021-07-15"
+      // "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      // "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    },
+    {
+      "organization": "E-Funds",
+      "location": "Guangzhou",
+      "position": "Machine Learning Engineer Intern",
+      "url": "https://www.efunds.com.cn",
+      "startDate": "2021-11-01",
+      "endDate": "2021-11-31"
+    },    
+    {
+      "organization": "Microsoft",
+      "location": "Beijing",
+      "position": "Machine Learning Engineer Intern",
+      "url": "https://www.microsoft.com",
+      "startDate": "2020-07-01",
+      "endDate": "2020-09-31"
+    },
+    {
+      "organization": "Wechat",
+      "location": "Guangzhou",
+      "position": "Machine Learning Engineer Intern",
+      "url": "https://www.wechat.com",
+      "startDate": "2020-04-01",
+      "endDate": "2020-06-31"
+    },  
+    {
+      "organization": "Tencent",
+      "location": "Shenzhen",
+      "position": "Businees Analyst Intern",
+      "url": "https://www.tencent.com",
+      "startDate": "2019-08-01",
+      "endDate": "2019-11-31"
+    },  
+    {
+      "organization": "Microsoft",
+      "location": "Beijing",
+      "position": "Machine Learning Engineer Intern",
+      "url": "https://www.microsoft.com",
+      "startDate": "2019-03-01",
+      "endDate": "2020-07-01"
+    },
+    {
+      "organization": "Roland Berger",
+      "location": "Beijing",
+      "position": "Part Time Assistant",
+      "url": "https://www.rolandberger.com",
+      "startDate": "2019-01-01",
+      "endDate": "2019-02-01"
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Peking University",
+      "location": "Beijing",
+      "url": "https://www.pku.edu.cn/",
+      "area": "Embedded System",
+      "studyType": "Master",
+      "startDate": "2018-09-01",
+      "endDate": "2021-07-01"
+      // "score": "10",
+      // "courses": ["Theory of Relativity"]
+    },
+    {
+      "institution": "National TsingHua University",
+      "location": "Hsinchu",
+      "url": "https://dee.site.nthu.edu.tw/",
+      "area": "Electronic Engineering",
+      "studyType": "Exchange Program",
+      "startDate": "2016-02-01",
+      "endDate": "2016-06-01"
+    },
+    {
+      "institution": "Southeast University",
+      "location": "Nanjing",
+      "url": "https://dee.site.nthu.edu.tw/",
+      "area": "Automation Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2014-09-01",
+      "endDate": "2018-07-01"
     }
   ],
   "awards": [
