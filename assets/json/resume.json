@@ -134,8 +134,8 @@
       "institution": "Peking University",
       "location": "Beijing, China",
       "url": "https://english.pku.edu.cn/",
-      "area": "Embedded System",
-      "studyType": "Master",
+      "area": "",
+      "studyType": "Master - Embedded System",
       "startDate": "2018-09-01",
       "endDate": "2021-07-01"
       // "score": "10",
@@ -145,8 +145,8 @@
       "institution": "National TsingHua University",
       "location": "Hsinchu, China",
       "url": "https://nthu-en.site.nthu.edu.tw/",
-      "area": "Electronic Engineering",
-      "studyType": "Exchange Program",
+      "area": "",
+      "studyType": "Exchange Program - Electronic Engineering",
       "startDate": "2016-02-01",
       "endDate": "2016-06-01"
     },
@@ -154,8 +154,8 @@
       "institution": "Southeast University",
       "location": "Nanjing, China",
       "url": "https://www.seu.edu.cn/english/",
-      "area": "Automation Engineering",
-      "studyType": "Bachelor",
+      "area": "",
+      "studyType": "Bachelor - Automation Engineering",
       "startDate": "2014-09-01",
       "endDate": "2018-07-01"
     }

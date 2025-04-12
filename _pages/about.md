@@ -28,7 +28,7 @@ latest_posts:
 
 ##### **Who** is Lance
 
-During my undergraduate/graduate studies at [SEU](https://www.seu.edu.cn/english/)/[PKU](https://english.pku.edu.cn/) I majored in EE. And accumulated 7 internships across BA and MLE.
+During my undergraduate/graduate studies at [Southeast University](https://www.seu.edu.cn/english/)/[Peking University](https://english.pku.edu.cn/) I majored in Electrical Engineering. And accumulated 7 internships across BA and MLE.
 
 Since joining [TikTok](https://tiktok.com), I have participated algorithmic optimizations for ad delivery systems in strategy and modeling.
 
