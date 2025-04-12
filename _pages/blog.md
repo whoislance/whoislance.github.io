@@ -51,7 +51,7 @@ latest_posts:
       {% endif %}
       {% for category in site.display_categories %}
         <li>
-          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}" class="font-weight-bold">{{ category }}</a>
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>

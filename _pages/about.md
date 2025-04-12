@@ -38,6 +38,10 @@ Since joining [TikTok](https://tiktok.com), I have spearheaded algorithmic optim
 - Participated product launches including internal ads, ad4ad and promotion-to-live products -->
 <!-- - Optimized bidding strategies for CostCap products including minROAS, tROAS -->
 
+
+---
+
+
 ##### **What** can be found here
 Insights and Share through [Blog](/blog/).
 

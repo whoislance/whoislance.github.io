@@ -705,17 +705,18 @@ footer.sticky-bottom {
 
 .projects {
   margin-top: 0.5rem;
-  margin-left: 0.1rem;
+  margin-left: -1.5rem;
   list-style-type: none;
   
   .project-item {
     margin-bottom: 0.5rem;
     position: relative;
+    margin-left: 1.5rem;
     
     &::before {
       content: "•";
       position: absolute;
-      left: -0.2rem;
+      left: -0.8rem;
       color: var(--global-theme-color);
     }
     
@@ -728,7 +729,7 @@ footer.sticky-bottom {
       font-size: 0.9rem;
       color: var(--global-text-color-light);
       margin: 0.1rem 0;
-      padding-left: 0.1rem;
+      padding-left: 0;
     }
     
     .project-tech {
@@ -736,7 +737,7 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-style: italic;
       margin: 0.1rem 0;
-      padding-left: 0.2rem;
+      padding-left: 0;
     }
   }
 }
@@ -1473,7 +1474,7 @@ figure.cover {
     margin: 0;
     
     .iconlocation {
-      margin-right: 0.5rem;  // 给图标和文字之间添加一些间距
+      margin-right: 0.1rem;  // 给图标和文字之间添加一些间距
     }
   }
 }
@@ -1487,7 +1488,7 @@ figure.cover {
       align-items: center;
       
       .iconlocation {
-        margin-right: 0.5rem;
+        margin-right: 0.1rem;
       }
     }
   }
