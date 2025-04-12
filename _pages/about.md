@@ -24,25 +24,19 @@ latest_posts:
   limit: 5 # leave blank to include all the blog posts
 ---
 
+---
+
 ##### **Who** is Lance
 
-During my academic tenure at [SEU](https://www.seu.edu.cn/)/[PKU](https://www.pku.edu.cn/) I pursued a concentrated curriculum in EE . My professional foundation and all-round ability were strengthened through internships as a MLE intern and a BA intern.
+During my undergraduate/graduate studies at [SEU](https://www.seu.edu.cn/)/[PKU](https://www.pku.edu.cn/) I majored in EE. And accumulated 7 internships across BA and MLE.
 
-Since joining [TikTok](https://tiktok.com), I have spearheaded algorithmic optimizations for ad delivery systems in strategic development and model enhancements.
-
-<!-- across Recall, Rough Ranking, and Fine Ranking.  -->
-<!-- Below are selected projects:
-- Developed CVR model via Federated Learning framework integrating prediction capabilities for Trackable/Non-Trackable traffic
-- Deployed multiple retrieval branches leveraging compliant multi-source Signals
-- Enhanced advertising models through cross-domain collaboration with recommendation samples
-- Participated product launches including internal ads, ad4ad and promotion-to-live products -->
-<!-- - Optimized bidding strategies for CostCap products including minROAS, tROAS -->
-
+Since joining [TikTok](https://tiktok.com), I have participated algorithmic optimizations for ad delivery systems in strategy and modeling.
 
 ---
 
 
 ##### **What** can be found here
+
 Insights and Share through [Blog](/blog/).
 
 Professional experience in [Resume](/cv/).
