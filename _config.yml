@@ -50,7 +50,7 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
+socials_in_search: false
 posts_in_search: true
 bib_search: true
 
@@ -264,7 +264,7 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: [] #["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["Machine Learning", "Computer Engineering", "Personal", "sample-posts"] # these categories will be displayed on the front page of your blog
+display_categories: ["Machine Learning", "Computer Engineering", "Personal Posts"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
