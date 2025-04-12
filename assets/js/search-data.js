@@ -447,25 +447,4 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{
-        id: 'social-phone_num',
-        title: 'Phone_num',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%79%75%6C%65_%77%68%61%6C%65@%66%6F%78%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/lance-y-594466119# your LinkedIn user name", "_blank");
-        },
-      },];
+            },},];
