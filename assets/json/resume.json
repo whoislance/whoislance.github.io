@@ -29,7 +29,16 @@
       "startDate": "2025-01-01",
       "endDate": "now",
       // "summary": "2025: TikTok App Ads.",
-      "highlights": ["2025: TikTok App Ads."]
+      "highlights": ["2025: TikTok App Ads."],
+      "projects": [
+        [  // Projects for highlights[0]
+          {
+            // "name": "Project A",
+            "description": "Optimized bidding strategies for CostCap products including minROAS, tROAS"
+            // "tech": ["Python", "React", "AWS"]
+          }
+        ]
+      ]
     },
     {
       "name": "TikTok",
@@ -39,7 +48,25 @@
       "startDate": "2021-07-15",
       "endDate": "2025-01-01",
       // "summary": "2023-2024: TikTok Lead Ads.\n2021-2022: TikTok Promote Ads.",
-      "highlights": ["2023-2024: TikTok Lead Ads.", "2021-2022: TikTok Promote Ads."]
+      "highlights": ["2023-2024: TikTok Lead Ads.", "2021-2022: TikTok Promote Ads."],
+      "projects": [
+        [  // Projects for highlights[0]
+          {
+            "description": "Developed CVR model via Federated Learning framework integrating prediction capabilities for Trackable/Non-Trackable traffic"
+          },
+          {
+            "description": "Deployed multiple retrieval branches leveraging compliant multi-source Signals"
+          }
+        ],
+        [  // Projects for highlights[1]
+        {
+          "description": "Enhanced advertising models through cross-domain collaboration with recommendation samples"
+        },
+        {
+          "description": "Participated product launches including internal ads, ad4ad and promotion-to-live products"
+        }
+        ]
+      ]
     }
   ],
   "internship": [

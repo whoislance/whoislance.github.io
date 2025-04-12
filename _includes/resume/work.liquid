@@ -42,7 +42,21 @@
             {% for item in content.highlights %}
               <li>
                 <span class="item">{{ item }}</span>
-                
+                {% if content.projects[forloop.index0] %}
+                  <ul class="projects">
+                    {% for project in content.projects[forloop.index0] %}
+                      <li class="project-item">
+                        <span class="project-name">{{ project.name }}</span>
+                        {% if project.description %}
+                          <p class="project-description">{{ project.description }}</p>
+                        {% endif %}
+                        {% if project.tech %}
+                          <p class="project-tech">Tech Stack: {{ project.tech | join: ", " }}</p>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
               </li>
             {% endfor %}
           </ul>
