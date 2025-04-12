@@ -26,17 +26,18 @@ latest_posts:
 
 ### Who is Lance
 Here is Lance Yu. 
-During my academic tenure at [SEU](https://www.seu.edu.cn/)/[PKU](https://www.pku.edu.cn/), I pursued a concentrated curriculum in EE while actively participating in numerous software and hardware engineering competitions. My professional foundation and all-round ability were strengthened through successive internships as a Machine Learning Engineer and Business Analyst.
-Since joining TikTok's advertising technology division, I have spearheaded algorithmic optimizations for ad delivery systems, specializing in strategic framework development and model enhancements across key recommendation stages: Recall, Rough Ranking, and Fine Ranking. Below are selected projects demonstrating my technical contributions:
-- Developed CVR model via federated learning framework integrating prediction capabilities for Trackable/Non-Trackable users
-- Deployed multiple retrieval branches leveraging compliant multi-source signals
-- Optimized bidding strategies for CostCap products including minROAS, tROAS
+During my academic tenure at [SEU](https://www.seu.edu.cn/)/[PKU](https://www.pku.edu.cn/) where I pursued a concentrated curriculum in EE . My professional foundation and all-round ability were strengthened through successive internships as a MLE intern and BA intern.
+
+Since joining [TikTok](https://tiktok.com), I have spearheaded algorithmic optimizations for ad delivery systems, specializing in strategic framework development and model enhancements across Recall, Rough Ranking, and Fine Ranking. Below are selected projects:
+- Developed CVR model via Federated Learning framework integrating prediction capabilities for Trackable/Non-Trackable traffic
+- Deployed multiple retrieval branches leveraging compliant multi-source Signals
 - Enhanced advertising models through cross-domain collaboration with recommendation samples
 - Participated product launches including internal ads, ad4ad and promotion-to-live products
+<!-- - Optimized bidding strategies for CostCap products including minROAS, tROAS -->
 
 ### What can be found here
-- Insights and share through my [Blog](/blog/)
-- Professional experience in my [Resume](/cv/)
+- Insights and Share through [my Blog](/blog/)
+- Professional experience in [my Resume](/cv/)
 
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
