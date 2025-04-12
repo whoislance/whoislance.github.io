@@ -28,7 +28,7 @@ latest_posts:
 
 ##### **Who** is Lance
 
-During my undergraduate / graduate studies at [Southeast University](https://www.seu.edu.cn/english/) / [Peking University](https://english.pku.edu.cn/) I majored in Electrical Engineering. And accumulated 7 internships across Business Analyst and Machine Learning Engineer.
+During my undergraduate / graduate studies at [Southeast University](https://www.seu.edu.cn/english/) / [Peking University](https://english.pku.edu.cn/) I majored in *Electrical Engineering* and accumulatsed 7 internships across *Business Analyst* and *Machine Learning Engineer*.
 
 Since joining [TikTok](https://tiktok.com), I have participated algorithmic optimizations for ad delivery systems in strategy and modeling.
 
@@ -37,9 +37,9 @@ Since joining [TikTok](https://tiktok.com), I have participated algorithmic opti
 
 ##### **What** can be found here
 
-- Insights and Share through [Blog](/blog/).
+Insights and Share through [Blog](/blog/).
 
-- Professional experience in [Resume](/cv/).
+Professional experience in [Resume](/cv/).
 
 ---
 
