@@ -16,7 +16,7 @@ pagination:
     after: 3 # The number of links after the current page
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
