@@ -29,12 +29,12 @@
       "startDate": "2025-01-01",
       "endDate": "now",
       // "summary": "2025: TikTok App Ads.",
-      "highlights": ["2025: TikTok App Ads."],
+      "highlights": ["2025: TikTok App Ads"],
       "projects": [
         [  // Projects for highlights[0]
           {
             // "name": "Project A",
-            "description": "Optimized bidding strategies for CostCap products including minROAS, tROAS"
+            "description": "Optimized bidding strategies for CostCap products including targetROAS"
             // "tech": ["Python", "React", "AWS"]
           }
         ]
@@ -48,7 +48,7 @@
       "startDate": "2021-07-15",
       "endDate": "2025-01-01",
       // "summary": "2023-2024: TikTok Lead Ads.\n2021-2022: TikTok Promote Ads.",
-      "highlights": ["2023-2024: TikTok Lead Ads.", "2021-2022: TikTok Promote Ads."],
+      "highlights": ["2023-2024: TikTok Lead Ads", "2021-2022: TikTok Promote Ads"],
       "projects": [
         [  // Projects for highlights[0]
           {
