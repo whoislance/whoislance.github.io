@@ -1118,8 +1118,15 @@ progress::-moz-progress-bar {
 nav[data-toggle="toc"] {
   top: 5rem;
 
+  // 显示所有嵌套的导航项
+  .nav .nav {
+    display: block;  // 默认显示子菜单
+    padding-left: 1rem;  // 子菜单缩进
+  }
+
   .nav .nav > li > a {
     font-size: 0.75rem;
+    padding-left: 0.5rem;  // 减少子项的左内边距
   }
 
   .nav > li > a {
@@ -1141,6 +1148,12 @@ nav[data-toggle="toc"] {
       color: var(--global-hover-color);
       border-left-color: var(--global-hover-color);
     }
+  }
+
+  // 确保所有级别的目录都显示
+  .nav .nav .nav {
+    display: block;  // 显示三级及以下目录
+    padding-left: 1rem;
   }
 }
 

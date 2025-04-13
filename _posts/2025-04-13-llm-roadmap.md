@@ -1,6 +1,6 @@
 ---
 layout: post
-disqus_comments: true
+disqus_comments: false
 related_posts: false
 toc:
   sidebar: left
@@ -10,6 +10,7 @@ description: important llm models since 2017
 tags: CS ML NLP LLM
 categories: Code
 thumbnail: assets/img/2025Q2/1.png
+featured: true
 ---
 
 
