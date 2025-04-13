@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Lance
 middle_name: 
-last_name:
+last_name: Yu
 contact_note: > # Contact me with these ways.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -264,7 +264,7 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: [] #["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["Machine Learning", "Computer Engineering", "Personal Posts"] # these categories will be displayed on the front page of your blog
+display_categories: ["Computer Science", "Personal Posts"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
