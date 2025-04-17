@@ -63,7 +63,7 @@ https://arxiv.org/pdf/2001.04451.pdf
 
 https://arxiv.org/pdf/1909.11942.pdf
 
-- **Abstract**：我把BERT參數減少，然後加上了一個酷酷的自監督式學習
+- **Abstract**：我把BERT參數減少，然後加上了一個酷酷的自监督学习
 
 **《RoBERTa: A Robustly Optimized** **BERT** **Pretraining Approach》**（2019）
 
