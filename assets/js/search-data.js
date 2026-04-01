@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-llm-learning-roadmap",
+        },{id: "post-claud-code-study",
+        
+          title: "Claud Code Study",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/claude-code-study/";
+          
+        },
+      },{id: "post-llm-learning-roadmap",
         
           title: "LLM Learning Roadmap",
         
