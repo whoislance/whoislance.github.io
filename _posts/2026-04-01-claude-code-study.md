@@ -12,6 +12,12 @@ categories: Code
 featured: false
 ---
 
+### demo study
+install:
+- intall node.js: https://nodejs.org/en/download
+- install demo: http://diwang.info/claude-code-from-scratch/#/docs/00-introduction
+
+- my code note: https://github.com/whoislance/claude-code-from-scratch/compare/main...whoislance:claude-code-from-scratch:note
 
 
 ### links
@@ -19,6 +25,9 @@ featured: false
 - python/rust rewriting: https://github.com/instructkr/claw-code
 - rust rewriting: https://github.com/Kuberwastaken/claude-code
 - how it works: https://github.com/Windy3f3f3f3f/how-claude-code-works
+- demo: https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/main/docs/quick-start.md
+
+
 
 
 
