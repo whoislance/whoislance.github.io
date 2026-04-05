@@ -19,7 +19,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
  
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 5 # leave blank to include all the blog posts
 ---
@@ -37,11 +37,14 @@ Since joining [TikTok](https://tiktok.com), I have participated algorithmic opti
 
 ##### **What** can be found here
 
-Insights and Share through [Blog](/blog/).
+[Blogs](/blog/) and [Resume](/cv/).
 
-Professional experience in [Resume](/cv/).
+<!-- Insights and Share through [Blog](/blog/).
+
+Professional experience in [Resume](/cv/). -->
 
 ---
+
 
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
