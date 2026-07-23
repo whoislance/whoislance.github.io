@@ -26,7 +26,7 @@ latest_posts:
 
 ---
 
-##### **Who** is Lance
+##### **Intro** 
 
 During my undergraduate / graduate studies at [Southeast University](https://www.seu.edu.cn/english/) / [Peking University](https://english.pku.edu.cn/) I majored in *Electrical Engineering* and accumulatsed 7 internships across *Business Analyst* and *Machine Learning Engineer*.
 
