@@ -32,7 +32,7 @@ During my undergraduate / graduate studies at [Southeast University](https://www
 
 Since joining [TikTok](https://tiktok.com), I have participated algorithmic optimizations for ad delivery systems in strategy and modeling.
 
----
+
 
 
 <!-- ##### **What** can be found here
