@@ -1,14 +1,17 @@
 {
   "basics": {
     // "name": "Lance Yu",
-    "position": "Senior Machine Learning Engineer",
+    "name": "Le Yu",
+    "position": "Senior Machine Learning Engineer | Ads Modeling & Bidding",
     "image": "",
     "email": "yule_whale@foxmail.com",
-    "summary": "Currently engaged in TikTok advertising. Including Strategy/Model optimization for Recall/Rough/Fine-sort and Bidding.",
+    "phone": "+1 408 784 1249",
+    "url": "https://whoislance.github.io/cv/",
+    "summary": "Senior Machine Learning Engineer | Ads Modeling & Bidding",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "Santa Clara, CA",
+      "postalCode": "",
+      "city": "Santa Clara",
       "countryCode": "US",
       "region": "California"
     },
@@ -23,19 +26,37 @@
   "work": [
     {
       "name": "TikTok",
-      "location": "Beijing, China",
+      "location": "Beijing, China / San Jose, CA",
       "position": "Senior Machine Learning Engineer",
       "url": "https://tiktok.com",
-      "startDate": "2025-01-01",
-      "endDate": "now",
-      // "summary": "2025: TikTok App Ads.",
-      "highlights": ["2025: TikTok App Ads"],
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "App Ads Bidding",
+      "highlights": [
+        "Delayed GMV prediction",
+        "Long-horizon bid control",
+        "Generative bidding",
+        "Ads diagnosis agent"
+      ],
       "projects": [
-        [  // Projects for highlights[0]
+        [
           {
-            // "name": "Project A",
-            "description": "Optimized bidding strategies for CostCap products including targetROAS"
-            // "tech": ["Python", "React", "AWS"]
+            "description": "Drove the end-to-end design and launch of a hybrid delayed-GMV model for Target ROAS bidding, fusing delay curves with click and real-time funnel signals to predict final GMV before feedback matured. The initial IAA launch improved advertiser value by about 7%."
+          }
+        ],
+        [
+          {
+            "description": "Designed and launched a multi-day MPC controller that incorporated historical spend and predicted GMV into each bidding decision to correct accumulated delivery gaps. An IAP experiment increased the share of campaigns meeting ROAS targets by about 14% and advertiser value by about 37%."
+          }
+        ],
+        [
+          {
+            "description": "Built minute-level state–action–reward trajectories, RTG targets, and training and serving pipelines for sequence-based bidding. Prototyped Decision Transformer and generator–critic–value models with controller-based action bounds and safety priors."
+          }
+        ],
+        [
+          {
+            "description": "Designed and launched a production App Ads diagnosis agent for ticket parsing, funnel triage, and bidding and ranking investigations. Authored its modular Skills and integrated internal tools with evidence and confidence controls to deliver traceable diagnoses while separating verified findings from hypotheses."
           }
         ]
       ]
@@ -45,26 +66,54 @@
       "location": "Beijing, China",
       "position": "Machine Learning Engineer",
       "url": "https://tiktok.com",
-      "startDate": "2021-07-15",
-      "endDate": "2025-01-01",
-      // "summary": "2023-2024: TikTok Lead Ads.\n2021-2022: TikTok Promote Ads.",
-      "highlights": ["2023-2024: TikTok Lead Ads", "2021-2022: TikTok Promote Ads"],
+      "startDate": "2023-03",
+      "endDate": "2024-12",
+      "summary": "Lead Ads Ranking",
+      "highlights": [
+        "Federated learning framework",
+        "Unified conversion model",
+        "Privacy-compliant ad retrieval"
+      ],
       "projects": [
-        [  // Projects for highlights[0]
+        [
           {
-            "description": "Developed CVR model via Federated Learning framework integrating prediction capabilities for Trackable/Non-Trackable traffic"
-          },
-          {
-            "description": "Deployed multiple retrieval branches leveraging compliant multi-source Signals"
+            "description": "PACS-FL keeps privacy-sensitive conversion labels in a protected sandbox, exchanging intermediate tensors and gradients with cloud workers for split training. Drove Framework 2.0 for Lead Ads: a C++/Proto training interface with a unified label-feature pipeline, validated automatic cloud-sandbox graph partitioning, and single-job orchestration across GPU batch, CPU batch, and streaming stages, cutting PS storage by 70% and batch time by 90%."
           }
         ],
-        [  // Projects for highlights[1]
-        {
-          "description": "Enhanced advertising models through cross-domain collaboration with recommendation samples"
-        },
-        {
-          "description": "Participated product launches including internal ads, ad4ad and promotion-to-live products"
-        }
+        [
+          {
+            "description": "Drove the staged unification of trackable and privacy-restricted traffic across on- and off-platform Lead Ads into one multi-head model with shared training and serving. Traffic-conditioned adapters and a compact sparse-feature tower preserved segment-specific behavior. The broader One Model program shipped through 18 production launches across US, EU, and ROW, with individual unification launches delivering up to 18.6% advertiser-value lift"
+          }
+        ],
+        [
+          {
+            "description": "Launched multiple recall branches using complementary privacy-safe signals: ELAND landing-page interaction graphs for U2I matching; Memory Recall for cluster-based candidate transfer; Cohort and DP behavioral features; and PACS-FL pCVR for eCPM retrieval."
+          }
+        ]
+      ]
+    },
+    {
+      "name": "TikTok",
+      "location": "Beijing, China",
+      "position": "Machine Learning Engineer",
+      "url": "https://tiktok.com",
+      "startDate": "2021-07",
+      "endDate": "2023-02",
+      "summary": "Promotion Ads Ranking",
+      "highlights": [
+        "Ads–recommendation collaboration",
+        "New ad product launches"
+      ],
+      "projects": [
+        [
+          {
+            "description": "Built bidirectional sample and feature pipelines between Promote and TikTok's recommendation system, allowing promotion models to use organic engagement signals and recommendation models to learn from paid-promotion feedback."
+          }
+        ],
+        [
+          {
+            "description": "Launched Promote Internal Ads, Ad4Ad, and Promote-to-Live, building their CVR models and conversion pipelines. For Promote-to-Live, replaced daily updates with streaming training and modeled delayed watch-time labels."
+          }
         ]
       ]
     }
@@ -81,44 +130,59 @@
       // "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     },
     {
-      "organization": "E-Funds",
+      "organization": "E Fund Management",
       "location": "Guangzhou, China",
-      "position": "Machine Learning Engineer Intern",
+      "position": "Machine Learning Intern",
       "url": "https://www.efunds.com.cn",
-      "startDate": "2020-11-01",
-      "endDate": "2020-11-31"
+      "startDate": "2020-11",
+      "endDate": "2020-11",
+      "highlights": [
+        "Built LSTM baselines over hundreds of proprietary market features for equity time-series forecasting."
+      ]
     },    
     {
       "organization": "Microsoft",
       "location": "Beijing, China",
-      "position": "Machine Learning Engineer Intern",
+      "position": "Machine Learning Intern",
       "url": "https://www.microsoft.com",
-      "startDate": "2020-07-01",
-      "endDate": "2020-09-31"
+      "startDate": "2020-07",
+      "endDate": "2020-09",
+      "highlights": [
+        "Fine-tuned BERT to classify articles for Bing News and support personalized newsletter curation."
+      ]
     },
     {
-      "organization": "Wechat",
+      "organization": "WeChat",
       "location": "Guangzhou, China",
-      "position": "Machine Learning Engineer Intern",
+      "position": "Machine Learning Intern",
       "url": "https://www.wechat.com",
-      "startDate": "2020-04-01",
-      "endDate": "2020-06-31"
+      "startDate": "2020-04",
+      "endDate": "2020-06",
+      "highlights": [
+        "Developed a ResNet-based visual model for detecting unauthorized and reposted videos on WeChat Channels."
+      ]
     },  
     {
       "organization": "Tencent",
       "location": "Shenzhen, China",
-      "position": "Businees Analyst Intern",
+      "position": "Strategy Intern",
       "url": "https://www.tencent.com",
-      "startDate": "2019-08-01",
-      "endDate": "2019-11-31"
+      "startDate": "2019-08",
+      "endDate": "2019-11",
+      "highlights": [
+        "Analyzed global cloud-computing markets and competitors to support Tencent Cloud product planning."
+      ]
     },  
     {
       "organization": "Microsoft",
       "location": "Beijing, China",
-      "position": "Machine Learning Engineer Intern",
+      "position": "Machine Learning Intern",
       "url": "https://www.microsoft.com",
-      "startDate": "2019-03-01",
-      "endDate": "2019-07-01"
+      "startDate": "2019-03",
+      "endDate": "2019-07",
+      "highlights": [
+        "Improved an N-gram language model for first-page result reranking in Bing Search."
+      ]
     },
     {
       "organization": "Roland Berger",
@@ -132,32 +196,32 @@
   "education": [
     {
       "institution": "Peking University",
-      "location": "Beijing, China",
+      "location": "Beijing",
       "url": "https://english.pku.edu.cn/",
-      "area": "",
-      "studyType": "Master - Embedded System",
-      "startDate": "2018-09-01",
-      "endDate": "2021-07-01"
+      "area": "Electronics and Communication Engineering",
+      "studyType": "Master",
+      "startDate": "2018-09",
+      "endDate": "2021-07"
       // "score": "10",
       // "courses": ["Theory of Relativity"]
     },
     {
       "institution": "National TsingHua University",
-      "location": "Hsinchu, China",
+      "location": "Hsinchu",
       "url": "https://nthu-en.site.nthu.edu.tw/",
-      "area": "",
-      "studyType": "Exchange Program - Electronic Engineering",
-      "startDate": "2016-02-01",
-      "endDate": "2016-06-01"
+      "area": "Electronic Engineering",
+      "studyType": "Exchange",
+      "startDate": "2016-02",
+      "endDate": "2016-06"
     },
     {
       "institution": "Southeast University",
-      "location": "Nanjing, China",
+      "location": "Nanjing",
       "url": "https://www.seu.edu.cn/english/",
-      "area": "",
-      "studyType": "Bachelor - Automation Engineering",
-      "startDate": "2014-09-01",
-      "endDate": "2018-07-01"
+      "area": "Automation Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2014-09",
+      "endDate": "2018-07"
     }
   ],
   "awards": [
@@ -238,28 +302,52 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Machine Learning",
+      "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Ads ranking and intelligent bidding",
+        "conversion-rate and value prediction",
+        "delayed GMV prediction",
+        "privacy-preserving ML",
+        "sequential decision modeling"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "C++",
+        "Python",
+        "Go",
+        "SQL",
+        "TensorFlow",
+        "Spark",
+        "distributed training",
+        "real-time serving",
+        "streaming data pipelines"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Mandarin Chinese",
+        "English"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "Mandarin Chinese",
+      "fluency": "",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "",
       "icon": ""
     }
   ],
