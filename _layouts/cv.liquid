@@ -55,10 +55,11 @@ layout: default
     </article>
   </div>
 {% else %}
+  {% assign basics = site.data.resume.basics %}
   <div class="post">
-    <header class="post-header">
+    <header class="post-header cv-header">
       <h1 class="post-title">
-        Le Yu
+        {{ basics.name }}
         {% if page.cv_pdf %}
           <a
             {% if page.cv_pdf contains '://' %}
@@ -74,13 +75,26 @@ layout: default
           </a>
         {% endif %}
       </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+      {% if basics.position %}
+        <p class="post-description cv-headline">{{ basics.position }}</p>
       {% endif %}
+      <div class="cv-contact-details">
+        {% if basics.location.address %}
+          <span><i class="fa-solid fa-location-dot"></i> {{ basics.location.address }}</span>
+        {% endif %}
+        {% if basics.phone %}
+          <a href="tel:{{ basics.phone | remove: ' ' }}"><i class="fa-solid fa-phone"></i> {{ basics.phone }}</a>
+        {% endif %}
+        {% if basics.email %}
+          <a href="mailto:{{ basics.email }}"><i class="fa-solid fa-envelope"></i> {{ basics.email }}</a>
+        {% endif %}
+        {% if basics.url %}
+          <a href="{{ basics.url }}" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-globe"></i> {{ basics.url | remove: 'https://' | remove: 'http://' }}
+          </a>
+        {% endif %}
+      </div>
     </header>
-
-    <a href="tel:{{ site.data.socials.phone_num }}">{{ site.data.socials.phone_num }}</a>  | 
-    <a href="mailto:{{ content[1] }}" target="_blank">{{ site.data.socials.email }}</a>
 
     <article>
       <div class="cv">
